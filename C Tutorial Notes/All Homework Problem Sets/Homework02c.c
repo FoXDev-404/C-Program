@@ -14,6 +14,7 @@ int main() {
     scanf("%d", &b);
     small = (a>b) ? b : a;
     printf("\nsmallest = %d", small);
+    
     return 0;
 
 }
