@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Print the number 0 to n, if n is given by user.
+// Print the number 0 to n, if n is given by user
 
 int main()
 {
