@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// This is an exampla of Switch Statement.
 int main()
 {
     int day; // 1-mon; 2-tue; 3-wed;...7-sun;
