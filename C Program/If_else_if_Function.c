@@ -9,11 +9,7 @@ float rectangleArea(float a, float b);
 
 int main()
 {
-    float x;
-    float a;
-    float b;
-    float side;
-    float rad;
+    float x, a, b, side, rad;
     printf("Enter type '1' for circle, '2' for rectangle, '3' for square. : "); /// Call function
     scanf("%f", &x);
 
