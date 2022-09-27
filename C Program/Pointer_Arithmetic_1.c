@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* This is an exapmle of "increment & decrement"
+/*  This is an exapmle of "increment & decrement"
  using float[4 bit] operator in poinetr arithmetic. */
 
 int main()
