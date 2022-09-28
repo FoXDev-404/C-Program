@@ -10,7 +10,7 @@ int main()
 {
     int arr[] = {1, 2, 3, 4, 5};
     printf("%d \n", *(arr + 2)); // this print 3.
-    printf("%d \n", *(arr + 5)); // this give error bcz arr 5th is not exist.
+    printf("%d \n", *(arr + 5)); // this give error bcz arr 5th is not exist only arr 0 to 4th exist.
 
     return 0;
 }
