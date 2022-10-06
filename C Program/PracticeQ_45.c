@@ -1,22 +1,31 @@
 #include <stdio.h>
 
-// Program to store the first n fibonacchi numbers.
+// C program to print Fibonacci series up to n terms.
 
 int main()
 {
-    int n;
-    printf("enter n (n>2) : ");
-    scanf("%d", &n);
+    int a, b, c, i, terms;
 
-    int fib[n];
-    fib[0] = 0;
-    fib[1] = 1;
+    /* Input number from user */
+    printf("Enter number of terms: ");
+    scanf("%d", &terms);
 
-    for (int i = 2; i < n; i++)
+    /* Fibonacci initialization */
+    a = 0;
+    b = 1;
+    c = 0;
+
+    printf("Fibonacci terms: \n");
+
+    /* Iterate through n terms */
+    for (i = 1; i <= terms; i++)
     {
-        fib[i] = fib[i - 1] + fib[i - 2];
-        printf("%d \t", fib[i]);
+        printf("%d, ", c);
+
+        a = b;     // Copy n-1 to n-2
+        b = c;     // Copy current to n-1
+        c = a + b; // New term
     }
-    printf("\n");
+
     return 0;
 }
