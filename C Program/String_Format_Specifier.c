@@ -7,8 +7,8 @@ void printString(char arr[]);
 int main()
 {
     char name[50];
-    scanf("%s", name); /* %s for string */
-    printf("your name is %s", name); /* %s for string */
+    scanf("%s", name);               /* %s for string, here wo  don't use '\0' bcz when we use "%s" '\0' is automatically there. */
+    printf("your name is %s", name); /* %s for string, here wo  don't use '\0' bcz when we use "%s" '\0' is automatically there. */
     return 0;
 }
 
