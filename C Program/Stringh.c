@@ -8,6 +8,7 @@ int countLength(char arr[]);
 
 int main()
 {
+    /* count number of characters excluding '\0' */
     char name[] = "Rajpal";
     int length = strlen(name);
     printf("length is : %d", length);
