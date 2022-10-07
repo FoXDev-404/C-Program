@@ -8,6 +8,7 @@ int countLength(char arr[]);
 
 int main()
 {
+    /* copies value of old string to new string */
     char oldStr[] = "oldStr";
     char newStr[] = "newStr";
     strcpy(newStr, oldStr);
