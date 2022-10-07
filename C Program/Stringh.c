@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-/* This is an example of standard librery functions "<string.h>" */
+/* This is an example of standard librery functions "strlen(str)" */
 
 void printString(char arr[]);
 int countLength(char arr[]);
