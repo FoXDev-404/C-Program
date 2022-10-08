@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Compares 2 strings & returns a value */
+/* Compares 2 strings & returns a value. */
 /* if return value is 0 -> string equal */
 /* if return value is positive(+ve) -> first > second (ASCII) */
 /* if return value is negative(-ve) -> first < second (ASCII) */
