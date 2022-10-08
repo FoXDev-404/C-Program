@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void printString(char arr[]);
-void countLength(char arr[]);
-
 /* Take a string input from the user using %c */
 
 int main()
