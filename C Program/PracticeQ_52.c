@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Slice Function
+// Slice Function
 /* write a function to named slice, which takes a
 string & returns a sliced string from index n to m. */
 
