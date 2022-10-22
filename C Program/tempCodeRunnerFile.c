@@ -1,1 +1,1 @@
-program to read full file
+program to  read 5 integers from a file.
